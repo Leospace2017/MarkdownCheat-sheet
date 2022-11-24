@@ -1,11 +1,12 @@
-# leospace
+# Basis
+
 
 Heading # H1
         ## H2
         ### H3
         #### H4
         ##### H5
-        ###### H6
+        ###### H6>>
 # H1
 ## H2
 ### H3
@@ -13,6 +14,79 @@ Heading # H1
 ##### H5
 ###### H6
 
-Bold    `**bold text**` **bold text**
+`**bold text**`>>
+ **bold text**
 
-Alt h1 
+*italicized text* >>
+ `*italicized text*`
+
+`> blockquote` >>
+> blockquote
+
+Ordered List 
+`1. First item
+2. Second item
+3. Third item`>>
+1. First item 
+2. Second item
+3. Third item
+
+`- First item`
+`-Second item`
+`-Third item`  >>
+- First item
+- Second item
+- Third item
+
+Code``>> 
+`code`
+
+
+"---">>>
+
+---
+
+
+`[title](https://www.example.com)`>>>
+[title](https://www.example.com)
+
+
+`![alt text](image.jpg)`>>
+![alt text](image.jpg)
+
+
+#Extended Syntax
+
+Table
+`| Syntax | Description |
+| -| -|
+| Header | Title |
+| Paragraph | Text |`
+
+| Syntax | Description |
+| - | -|
+| Header | Title |
+| Paragraph | Text |
+
+
+
+
+{
+  "firstName": "John",
+  "lastName": "Smith",
+  "age": 25
+}
+```
+Here's a sentence with a footnote. [^1]
+[^1]: This is the footnote.>>>
+```
+Here's a sentence with a footnote. [^1]
+[^1]: This is the footnote.
+
+### My Great Heading {#custom-id}
+
+term
+: definition
+```
+
+```
