@@ -85,8 +85,31 @@ Here's a sentence with a footnote. [^1]
 
 ### My Great Heading {#custom-id}
 
-term
+term 
 : definition
-```
+
+
+`~~The world is flat.~~`>>
+~~The world is flat.~~
+
 
 ```
+- [x] Write the press release
+- [ ] Update the website
+- [ ] Contact the media>>>
+```
+- [ ] Write the press release
+- [ ] Update the website
+- [ ] Contact the media
+
+`That is so funny! :joy:`>>
+That is so funny! :joy:
+
+```I need to highlight these ==very important words==.```
+I need to highlight these ==very important words==.
+
+`H~2~O`
+H~2~O 
+
+`X^2^`
+X^2^
